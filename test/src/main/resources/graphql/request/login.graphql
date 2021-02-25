@@ -1,0 +1,6 @@
+query LoginUser($input: InsertUserInput!) {
+  user(input: $input) {
+    email
+    token
+  }
+}

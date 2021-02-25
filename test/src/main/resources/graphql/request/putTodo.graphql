@@ -1,0 +1,6 @@
+mutation InsertTodo($input: InsertTodoInput){
+  insertTodo(input: $input) {
+    id
+    title
+  }
+}
